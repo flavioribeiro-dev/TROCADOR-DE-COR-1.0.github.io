@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.area {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: orange;
+}
+
+.area .background {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.area .background .backgroundColor {
+    font-size: 30px;
+}
+
+.area .background .colorSelected {
+    font-size: 30px;
+    margin-left: 10px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.btn_changeColor {
+    padding: 15px;
+    border: 3px solid #999;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    background-color: #ccc;
+    box-shadow: 3px 3px 10px #999 ;
+}
+
+
+.typeColor h5 {
+    font-size: 20px;
+}
+
+.typeColor h5 span {
+    font-weight: 800;
+}
+
+
+
+
+
+/* ==================================== */
+
+@media screen and (max-width: 750px) {
+    .area .background {
+        flex-direction: column;
+    }
+    
+    .area .background {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .area .background .colorSelected {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .btn_changeColor {
+        margin-top: 40px;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .area .background {
+        width: 100vw;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        flex-direction: column;
+    }
+    
+    .area .background {
+        font-size: 15px;
+    }
+
+    .area .background span {
+        font-size: 25px;
+    }
+}
+
+
+
+
