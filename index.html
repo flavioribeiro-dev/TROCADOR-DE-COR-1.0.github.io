@@ -5,24 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio - TROCADOR DE CORES</title>
     <link rel="stylesheet" href="ASSETS/CSS/style.css" />
-    <script src="ASSETS/JS/script.css" defer></script>
+    <script src="ASSETS/JS/script.js" defer></script>
 </head>
 <body>
     
     <div class="area">
         <div class="background">
             <div class="backgroundColor"> Background Color: </div>
-            <div class="colorSelected">ORANGE</div>
+            <div class="nameColor"> <span id="nameColor"></span></div>
         </div>
-
-        <button class="btn_changeColor">Nova Cor</button>
+        <button class="btn_changeColor" id="btn_changeColor">Clique aqui para gerar uma nova Cor</button>
 
         <div class="typeColor">
-            <h5>Esta é uma <span>Cor Primária</span></h5>
+            <h5>Esta é uma <span id="typeColor"></span></h5>
         </div>
     </div>
     
-    
+    <footer> 
+        <a href="https://github.com/flavioribeiro-dev/TROCADOR-DE-COR-1.0.github.io" target="_blank"><img src="/ASSETS/ICONS/github 50px-50px.png" /></a>
+        <p>Projeto desenvolvido para fixação de conhecimentos e como solução ao desafio proposto pelo site <a href="https://www.freecodecamp.org/portuguese/news/40-projetos-em-javascript-para-iniciantes-ideias-simples-para-comecar-a-programar-em-js/" target="_black">FreeCodeCamp</a></p> </footer>
     
     
 
