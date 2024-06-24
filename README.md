@@ -6,7 +6,7 @@ Link do Projeto:
 
 
 Tecnologias utilizadas:
-HTML
-CSS
-JS
-GIT/GITHUB
+* HTML,
+* CSS, 
+* JS,
+* GIT/GITHUB.
